@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/spiltmiruku/node-1-afternoon#readme",
   "dependencies": {
+    "chalk": "^3.0.0",
     "express": "^4.17.1"
   },
   "main": "server/index.js",
