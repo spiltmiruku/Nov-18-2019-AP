@@ -1,7 +1,15 @@
 const express = require('express');
+const getProducts = require('./getProducts');
 
 const app = express ();
 
-const PORT = 4242;
+const PORT = 4040;
 
-app.listen(PORT, () => console.log(`Server is listening on ${PORT}`));
+app.get('/api/products', getProducts);
+
+app.get('')
+
+app.listen(PORT, () => {
+    console.log(`Server is listening on: ${PORT}`);
+
+});
